@@ -19,6 +19,35 @@
   height="200"
   src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&amp;layer=mapnik">
 </iframe>
-    
+    <form action="#" method="get" id="boton">
+      <label for="correo">Correo</label>
+      <input type="email" name="email" value="david@uabcs.mx" readonly>
+      <br>
+          <div>
+            <label for="name">Nombre: </label>
+            <input type="text" id="name" name="firstName" minlength="5" maxlength="40" autofocus required placeholder="David" disabled size="50">
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido"  minlength="5" maxlength="10" required placeholder="Gonzalez"  pattern="[A,Za,z]{3}" title="solo 3 letras">
+            <br>
+            <label for="Telefono">Telefono</label>
+            <input type="number" min="5" max="20" name="Telefono" id="Telefono">
+            <label for="contraseña">Contraseña</label>
+            <input type="password" name="contraseña" id="contraseña">
+        </div>
+                <label for="genero">Genero: </label>
+                <label for="Mujer">Mujer</label>
+                <input type="radio" id="Mujer" name="gender" value="mujer">
+                <label for="Hombre">Hombre</label>
+                <input type="radio" id="Hombre" name="gender" value="hombre">
+
+                <label for="">Preferencias:</label>
+                 <label for="Pizza">Pizza</label>
+
+                <input type="checkbox" name="pizza" id="Pizza" >
+                <label for="Pozole">Pozole<label>
+                <input type="checkbox" name="Pozole" id="Pozole" >
+            <input type="submit" value="Guardar">
+            <input type="button" value="button">
+         </form>
   </body>
 </html>
