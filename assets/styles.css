@@ -1,0 +1,28 @@
+table, td, th {
+  border: 1px solid black;
+}
+img{
+  width: 200px;
+}
+p{
+  background-color: red;
+}
+#div1{
+  background-color:gold;
+}
+#div1:hover{
+  background-color:green;
+}
+nav:hover{
+   background-color: blue;
+}
+li:first-child{
+  background-color: violet;
+
+}
+li:last-child{
+  background-color: cyan;
+}
+.parrafos1y2:hover{
+  background-color: rosybrown;
+}
