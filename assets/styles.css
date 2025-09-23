@@ -17,6 +17,7 @@ p{
   background-color: red;
 }
 #div1{
+  margin-top: 30px;
   background-color:gold;
 }
 #div1:hover{
@@ -30,6 +31,8 @@ li:first-child{
 
 }
 li:last-child{
+  background-color: yellow;
+  padding: 10px;
   background-color: cyan;
 }
 .parrafos1y2:hover{
@@ -38,7 +41,21 @@ li:last-child{
 .parrafos1y2{
   text-decoration: underline;
   text-transform: uppercase;
+  padding: 20px 50px;
 }
 div{
 text-shadow: 1px 1px 8px black;
+}
+.parrafos3y4{
+  border: 10px;
+  padding: 20px 20px;
+  background-color: cyan;
+  border-radius: 20px;
+  border-style: double;
+}
+.contactP{
+  margin: 50px;
+}
+img{
+  width: 30%;
 }
