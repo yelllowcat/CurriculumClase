@@ -11,7 +11,7 @@ table, td, th {
   border: 1px solid black;
 }
 img{
-  width: 200px;
+  width: 100px;
 }
 p{
   background-color: red;
@@ -56,13 +56,39 @@ text-shadow: 1px 1px 8px black;
 .contactP{
   margin: 50px;
 }
-img{
-  width: 30%;
-}
+
 #bgImgae{
   height:20vh;
   background-image: url("./pig-svgrepo-com.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
+.chino{
+  width: 200px;
+}
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px;
+  background-color: blue;
+  gap: 5px;
+
+}
+.container div{
+  background-color: aliceblue;
+border: 2px black solid;
+}
+.item1{
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.item2{
+  grid-row: 2 / 10;
+}
+.item3{
+  grid-column: 2 / 4;
+}
+.item8{
+grid-column: 1 / 4;
 }
