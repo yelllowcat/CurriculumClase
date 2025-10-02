@@ -75,7 +75,7 @@ text-shadow: 1px 1px 8px black;
   gap: 5px;
 
 }
-.container div{
+.container > div{
   background-color: aliceblue;
 border: 2px black solid;
 }
@@ -91,4 +91,51 @@ border: 2px black solid;
 }
 .item8{
 grid-column: 1 / 4;
+}
+
+.container2{
+  display: flex;
+  background-color: rgb(255, 141, 141);
+  gap: 5px;
+  justify-content: center;
+
+}
+.container2 div{
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+border: 2px black solid;
+}
+
+@media print  {
+  .chino{
+    display: none;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px)  {
+  .chino{
+    display: none;
+  }
+  body{
+    background-color: wheat;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px)  {
+  .chino{
+    display: none;
+  }
+  body{
+    background-color: red;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px)  {
+  .chino{
+    display: none;
+  }
+  body{
+    background-color: blue;
+  }
 }
